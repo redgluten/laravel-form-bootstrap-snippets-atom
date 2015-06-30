@@ -1,4 +1,4 @@
-'.text.html.laravel-blade':
+'.text.html.php.laravel-blade':
   'email':
     'prefix': 'bootemail'
     'body': '<div class="form-group">\n    {!! Form::label(\'${1:email}\', \'${2:Email adress}\') !!}\n    {!! Form::email(\'${1:email}\',${3: null}, [\'class\' => \'form-control\'${4:, \'required\' => \'required\'}${5:, \'placeholder\' => \'eg: foo@bar.com\'}]) !!}\n    <small class="text-danger">{{ \$errors->first(\'${1:email}\') }}</small>\n</div>'

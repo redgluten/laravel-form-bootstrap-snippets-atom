@@ -1,4 +1,4 @@
-'.text.html.laravel-blade':
+'.text.html.php.laravel-blade':
   'button':
     'prefix': 'bootbutton'
     'body': '{!! Form::submit(\'${1:Button name}\', [\'class\' => \'btn${2: btn-info}${3: pull-right}\']) !!}'

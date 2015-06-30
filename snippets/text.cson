@@ -1,4 +1,4 @@
-'.text.html.laravel-blade':
+'.text.html.php.laravel-blade':
   'text':
     'prefix': 'boottext'
     'body': '<div class="form-group">\n    {!! Form::label(\'${1:inputname}\', \'${2:Input label}\') !!}\n    {!! Form::text(\'${1:inputname}\',${3: null,} [\'class\' => \'form-control\'${4:, \'required\' => \'required\'}]) !!}\n    <small class="text-danger">{{ \$errors->first(\'${1:inputname}\') }}</small>\n</div>'

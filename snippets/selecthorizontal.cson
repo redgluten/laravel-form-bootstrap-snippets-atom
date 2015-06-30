@@ -1,4 +1,4 @@
-'.text.html.laravel-blade':
+'.text.html.php.laravel-blade':
   'selecthorizontal':
     'prefix': 'bootselecth'
     'body': '<div class="form-group">\n    {!! Form::label(\'${1:inputname}\', \'${2:Input label}\', [\'class\' => \'${7:col-sm-3 control-label}\']) !!}\n    <div class="${8:col-sm-9}">\n    \t{!! Form::select(\'${1:inputname}\',${3: \$options},${4: \\$selected_value}, [\'class\' => \'form-control\'${5:, \'required\' => \'required\'}${6:, \'multiple\'}]) !!}\n    \t<small class="text-danger">{{ \\$errors->first(\'${1:inputname}\') }}</small>\n\t</div>\n</div>'

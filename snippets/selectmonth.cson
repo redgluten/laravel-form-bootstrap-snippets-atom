@@ -1,4 +1,4 @@
-'.text.html.laravel-blade':
+'.text.html.php.laravel-blade':
   'selectmonth':
     'prefix': 'bootselectmonth'
     'body': '<div class="form-group">\n    {!! Form::label(\'${1:month}\', \'${2:Month}\') !!}\n    {!! Form::selectRange(\'${1:month}\', [\'class\' => \'form-control\'${3:, \'required\' => \'required\'}]) !!}\n    <small class="text-danger">{{ \$errors->first(\'${1:month}\') }}</small>\n</div>'
