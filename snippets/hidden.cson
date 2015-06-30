@@ -1,0 +1,4 @@
+'.text.html.laravel-blade':
+  'hidden':
+    'prefix': 'boothidden'
+    'body': '{!! Form::hidden(\'${1:inputname}\', ${2:\'value\'}) !!}'

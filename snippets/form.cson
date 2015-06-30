@@ -1,0 +1,4 @@
+'.text.html.laravel-blade':
+  'form':
+    'prefix': 'bootform'
+    'body': '{!! Form::open([\'method\' => \'${1:POST}\', \'${2:route}\' => \'${3:routeName}\'${4:, \'class\' => \'form-horizontal\'}]) !!}\n\n    ${0:boottext}\n\n    <div class="btn-group pull-right">\n        ${5:{!! Form::reset("Reset", [\'class\' => \'btn btn-warning\']) !!}}}\n        {!! Form::submit("${6:Add}", [\'class\' => \'btn btn-${7:success}\']) !!}\n    </div>\n\n{!! Form::close() !!}'

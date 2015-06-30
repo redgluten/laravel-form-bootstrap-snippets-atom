@@ -1,0 +1,4 @@
+'.text.html.laravel-blade':
+  'texthorizontal':
+    'prefix': 'boottexth'
+    'body': '<div class="form-group">\n    {!! Form::label(\'${1:inputname}\', \'${2:Input}\', [\'class\' => \'${5:col-sm-3 control-label}\']) !!}\n\t<div class="${6:col-sm-9}">\n    \t{!! Form::text(\'${1:inputname}\',${3: null,} [\'class\' => \'form-control\'${4:, \'required\' => \'required\'}]) !!}\n    \t<small class="text-danger">{{ \$errors->first(\'${1:inputname}\') }}</small>\n\t</div>\n</div>'

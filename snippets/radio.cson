@@ -1,0 +1,4 @@
+'.text.html.laravel-blade':
+  'radio':
+    'prefix': 'bootradio'
+    'body': '<div class="checkbox">\n    <label for="${1:radio_group_name}" class="checkbox">\n        {!! Form::radio(\'${1:radio_group_name}\',${2: null},${3:  null}, [\n            \'class\' => \'form-control\',\n            \'id\'    => \'${4:radio_id}\',\n        ]) !!} ${5:Checkbox label}\n    </label>\n</div>'

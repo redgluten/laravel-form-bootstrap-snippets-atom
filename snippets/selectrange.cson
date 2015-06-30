@@ -1,0 +1,4 @@
+'.text.html.laravel-blade':
+  'selectrange':
+    'prefix': 'bootselectrange'
+    'body': '<div class="form-group">\n    {!! Form::label(\'${1:inputname}\', \'${2:Input label}\') !!}\n    {!! Form::selectRange(\'${1:inputname}\', ${3:0}, ${4:10}, [\'class\' => \'form-control\'${5:, \'required\' => \'required\'}]) !!}\n    <small class="text-danger">{{ \$errors->first(\'${1:inputname}\') }}</small>\n</div>'
