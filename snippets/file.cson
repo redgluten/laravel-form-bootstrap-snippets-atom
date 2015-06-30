@@ -1,4 +1,4 @@
-'.text.html.php.laravel-blade':
+'.text.html.php.blade':
   'file':
     'prefix': 'bootfile'
     'body': '<div class="form-group">\n    {!! Form::label(\'${1:inputname}\', \'${2:File label}\') !!}\n    {!! Form::file(\'${1:inputname}\'${3:, [\'class\' => \'required\']}) !!}\n    ${4:<p class="help-block">${5:Help block text}</p>}\n    <small class="text-danger">{{ \$errors->first(\'${1:inputname}\') }}</small>\n</div>'

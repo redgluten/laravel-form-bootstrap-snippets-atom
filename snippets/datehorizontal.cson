@@ -1,4 +1,4 @@
-'.text.html.php.laravel-blade':
+'.text.html.php.blade':
   'datehorizontal':
     'prefix': 'bootdateh'
     'body': '<div class="form-group">\n    {!! Form::label(\'${1:inputname}\', \'${2:Input label}\', [\'class\' => \'${3:col-sm-3 control-label}\']) !!}\n    <div class="${4:col-sm-9}">\n    \t{!! Form::date(\'${1:inputname}\',${5: null}, [\'class\' => \'form-control\'${6:, \'required\' => \'required\'}]) !!}\n    \t<small class="text-danger">{{ \$errors->first(\'${1:inputname}\') }}</small>\n    </div>\n</div>'
