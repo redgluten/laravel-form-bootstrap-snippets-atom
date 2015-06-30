@@ -1,4 +1,4 @@
-# Laravel Collective Forms + Bootstrap Snippets for Sublime Text
+# Laravel Collective Forms + Bootstrap Snippets for Atom Editor
 
 Handy [Atom editor](http://www.atom.io/) snippets to create [Laravel Collective Forms](http://laravelcollective.com/docs/5.1/html) inputs preformated for [Twitter's Bootstrap 3](http://getbootstrap.com/).
 
