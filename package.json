@@ -1,7 +1,7 @@
 {
   "name": "laravel-forms-bootstrap-snippets",
   "main": "./lib/laravel-forms-bootstrap-snippets",
-  "version": "0.2.4",
+  "version": "0.2.3",
   "description": "Handy Atom editor snippets to create Laravel Collective Forms inputs preformated for Twitter's Bootstrap 3",
   "keywords": [
     "snippets",
@@ -18,7 +18,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-    "language-blade": "0.14.0"
-  }
+  "dependencies": {}
 }
