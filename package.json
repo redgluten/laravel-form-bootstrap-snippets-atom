@@ -1,7 +1,7 @@
 {
   "name": "laravel-forms-bootstrap-snippets",
   "main": "./lib/laravel-forms-bootstrap-snippets",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Handy Atom editor snippets to create Laravel Collective Forms inputs preformated for Twitter's Bootstrap 3",
   "keywords": [
     "snippets",
