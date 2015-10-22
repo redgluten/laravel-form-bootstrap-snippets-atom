@@ -54,6 +54,7 @@ When you're editing your view in Atom, type the snippet shortcut then press `tab
 | **File**        | `bootfileh`        |
 | **Number**      | `bootnumberh`      |
 | **Password**    | `bootpasswordh`    |
+| **Radio**       | `bootradioh`       |
 | **Select**      | `bootselecth`      |
 | **SelectMonth** | `bootselectmonthh` |
 | **SelectRange** | `bootselectrangeh` |
