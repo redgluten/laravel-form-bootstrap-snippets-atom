@@ -1,4 +1,13 @@
 '.text.html.php.blade':
   'checkbox':
     'prefix': 'bootcheckbox'
-    'body': '<div class="form-group">\n    <div class="checkbox">\n        <label for="${1:checkbox_id}">\n            {!! Form::checkbox(\'${1:checkbox_id}\',${2: null},${3: null}, [\'id\' => \'${1:checkbox_id}\']) !!} ${4:Checkbox label}\n        </label>\n    </div>\n    <small class="text-danger">{{ \$errors->first(\'${1:checkbox_id}\') }}</small>\n</div>'
+    'body': """
+      <div class="form-group">
+          <div class="checkbox @if(\$errors->first('${1:checkbox_id}')) has-error @endif">
+              <label for="${1:checkbox_id}">
+                  {!! Form::checkbox(\'${1:checkbox_id}\',${2: null},${3: null}, [\'id\' => \'${1:checkbox_id}\']) !!} ${4:Checkbox label}
+              </label>
+          </div>
+          <small class="text-danger">{{ \$errors->first(\'${1:checkbox_id}\') }}</small>
+      </div>
+    """

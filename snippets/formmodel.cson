@@ -1,4 +1,15 @@
 '.text.html.php.blade':
   'formmodel':
     'prefix': 'bootformmodel'
-    'body': '{!! Form::model($${1:model}, [\'route\' => [\'${1:model}s.update\', ${1:model}s->id}], \'method\' => \'PUT\']) !!}\n\n    ${0:boottext}\n\n\t<div class="btn-group pull-right">\n\t\t${2:{!! Form::reset("Reset", [\'class\' => \'btn btn-warning\']) !!}}\n\t\t{!! Form::submit("${3:Add}", [\'class\' => \'btn btn-${4:success}\']) !!}\n\t</div>\n\n{!! Form::close() !!}'
+    'body': """
+        {!! Form::model(\$${1:model}, [\'route\' => [\'${1:model}s.update\', ${1:model}s->id}], \'method\' => \'PUT\']) !!}
+
+            ${0:boottext}
+
+            <div class="btn-group pull-right">
+                ${2:{!! Form::reset("Reset", [\'class\' => \'btn btn-warning\']) !!\}}
+                {!! Form::submit("${3:Add}", [\'class\' => \'btn btn-${4:success}\']) !!}
+            </div>
+
+        {!! Form::close() !!}
+    """

@@ -1,4 +1,10 @@
 '.text.html.php.blade':
   'textarea':
     'prefix': 'boottextarea'
-    'body': '<div class="form-group">\n    {!! Form::label(\'${1:inputname}\', \'${2:Input label}\') !!}\n    {!! Form::textarea(\'${1:inputname}\',${3: null,} [\'class\' => \'form-control\'${4:, \'required\' => \'required\'}]) !!}\n    <small class="text-danger">{{ \$errors->first(\'${1:inputname}\') }}</small>\n</div>'
+    'body': """
+        <div class="form-group @if(\$errors->first('${1:inputname}')) has-error @endif">
+            {!! Form::label(\'${1:inputname}\', \'${2:Input label}\') !!}
+            {!! Form::textarea(\'${1:inputname}\',${3: null,} [\'class\' => \'form-control\'${4:, \'required\' => \'required\'}]) !!}
+            <small class="text-danger">{{ \$errors->first(\'${1:inputname}\') }}</small>
+        </div>
+    """
