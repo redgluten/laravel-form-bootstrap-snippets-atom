@@ -16,6 +16,8 @@ Then reload your Atom.
 
 When you're editing your view in Atom, type the snippet shortcut then press `tab` key.
 
+![Example with `boottext` snippet](example.gif)
+
 ## Available snippets
 
 ### General
