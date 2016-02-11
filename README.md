@@ -43,8 +43,8 @@ When you're editing your view in Atom, type the snippet shortcut then press `tab
 | **Select**      | `bootselect`      |
 | **SelectMonth** | `bootselectmonth` |
 | **SelectRange** | `bootselectrange` |
-| **Text**        | `boottextarea`    |
-| **Textarea**    | `boottext`        |
+| **Text**        | `boottext`        |
+| **Textarea**    | `boottextarea`    |
 
 ### Horizontal inputs
 
@@ -60,5 +60,5 @@ When you're editing your view in Atom, type the snippet shortcut then press `tab
 | **Select**      | `bootselecth`      |
 | **SelectMonth** | `bootselectmonthh` |
 | **SelectRange** | `bootselectrangeh` |
-| **Text**        | `boottextareah`    |
-| **Textarea**    | `boottexth`        |
+| **Text**        | `boottexth`        |
+| **Textarea**    | `boottextareah`    |
