@@ -2,7 +2,7 @@
   'radio':
     'prefix': 'bootradio'
     'body': """
-        <div class="radio @if(\$errors->first('${1:radio_group_name}')) has-error @endif">
+        <div class="radio{{ \$errors->has('${1:radio_group_name}') ? ' has-error' : '' }}">
             <label for="${1:radio_group_name}" class="checkbox">
                 {!! Form::radio(\'${1:radio_group_name}\',${2: null},${3:  null}, [
                     \'class\' => \'form-control\',

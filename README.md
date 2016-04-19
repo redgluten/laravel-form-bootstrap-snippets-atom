@@ -1,6 +1,6 @@
 # Laravel Collective Forms + Bootstrap Snippets for Atom Editor
 
-Handy [Atom editor](http://www.atom.io/) snippets to create [Laravel Collective Forms](http://laravelcollective.com/docs/5.1/html) inputs preformated for [Twitter's Bootstrap 3](http://getbootstrap.com/).
+Handy [Atom editor](http://www.atom.io/) snippets to create [Laravel Collective Forms](http://laravelcollective.com/docs/5.1/html) inputs preformated for [Twitter’s Bootstrap 3](http://getbootstrap.com/).
 
 ## Installation
 
@@ -14,7 +14,7 @@ Then reload your Atom.
 
 ## Usage
 
-When you're editing your view in Atom, type the snippet shortcut then press `tab` key.
+When you’re editing your view in Atom, type the snippet shortcut then press `tab` key.
 
 ![Example with `boottext` snippet](example.gif)
 

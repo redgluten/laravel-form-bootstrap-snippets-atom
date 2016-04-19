@@ -2,7 +2,7 @@
   'selectmonth':
     'prefix': 'bootselectmonth'
     'body': """
-        <div class="form-group @if(\$errors->first('${1:month}')) has-error @endif">
+        <div class="form-group{{ \$errors->has('${1:month}') ? ' has-error' : '' }}">
             {!! Form::label(\'${1:month}\', \'${2:Month}\') !!}
             {!! Form::selectRange(\'${1:month}\', [\'class\' => \'form-control\'${3:, \'required\' => \'required\'}]) !!}
             <small class="text-danger">{{ \$errors->first(\'${1:month}\') }}</small>

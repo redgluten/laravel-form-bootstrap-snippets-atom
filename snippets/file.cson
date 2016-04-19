@@ -2,7 +2,7 @@
   'file':
     'prefix': 'bootfile'
     'body': """
-        <div class="form-group @if(\$errors->first('${1:inputname}')) has-error @endif">
+        <div class="form-group{{ \$errors->has('${1:inputname}') ? ' has-error' : '' }}">
             {!! Form::label(\'${1:inputname}\', \'${2:File label}\') !!}
             {!! Form::file(\'${1:inputname}\'${3:, [\'required\' => \'required\']}) !!}
             ${4:<p class="help-block">${5:Help block text}</p>}
