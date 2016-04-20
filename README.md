@@ -42,6 +42,7 @@ When you’re editing your view in Atom, type the snippet shortcut then press `t
 | **Radio**       | `bootradio`       |
 | **Select**      | `bootselect`      |
 | **SelectMonth** | `bootselectmonth` |
+| **SelectYear**  | `bootselectyear`  |
 | **SelectRange** | `bootselectrange` |
 | **Text**        | `boottext`        |
 | **Textarea**    | `boottextarea`    |
@@ -59,6 +60,7 @@ When you’re editing your view in Atom, type the snippet shortcut then press `t
 | **Radio**       | `bootradioh`       |
 | **Select**      | `bootselecth`      |
 | **SelectMonth** | `bootselectmonthh` |
+| **SelectYear**  | `bootselectyearh`  |
 | **SelectRange** | `bootselectrangeh` |
 | **Text**        | `boottexth`        |
 | **Textarea**    | `boottextareah`    |
