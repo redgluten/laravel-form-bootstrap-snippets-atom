@@ -7,7 +7,7 @@ Handy [Atom editor](http://www.atom.io/) snippets to create [Laravel Collective 
 You need to install the [language-blade](https://atom.io/packages/language-blade) package before installing this one. You can do it via the GUI (`Preferences > Install`) or with the command line:
 
   `apm install language-blade`
-  `apm install laravel_forms_boostrap_snippets`
+  `apm install laravel-forms-bootstrap-snippets`
 
 Then reload your Atom.
 
